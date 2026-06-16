@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aurum House — A Sanctuary Above The City</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">
+      <span class="nav__logo-mark">A</span>
+      <span class="nav__logo-text">Aurum House</span>
+    </div>
+    <ul class="nav__links">
+      <li><a href="#rooms">Rooms</a></li>
+      <li><a href="#amenities">Amenities</a></li>
+      <li><a href="#dining">Dining</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="#booking" class="btn btn--ghost nav__cta">Book a Stay</a>
+    <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#rooms" class="mobile-link">Rooms</a></li>
+      <li><a href="#amenities" class="mobile-link">Amenities</a></li>
+      <li><a href="#dining" class="mobile-link">Dining</a></li>
+      <li><a href="#gallery" class="mobile-link">Gallery</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+      <li><a href="#booking" class="mobile-link">Book a Stay</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <div class="hero__overlay"></div>
+      <div class="hero__grid-lines"></div>
+    </div>
+    <div class="hero__content">
+      <p class="hero__eyebrow">Est. 1924 · Mumbai, India</p>
+      <h1 class="hero__headline">
+        Where silence<br />
+        <em>is a luxury</em>
+      </h1>
+      <p class="hero__sub">
+        48 curated rooms perched above the city's tide. A refuge of linen, light, and unhurried time.
+      </p>
+      <div class="hero__actions">
+        <a href="#booking" class="btn btn--gold">Reserve Your Room</a>
+        <a href="#rooms" class="btn btn--text">Explore Rooms ↓</a>
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="stat">
+        <span class="stat__num">48</span>
+        <span class="stat__label">Curated Rooms</span>
+      </div>
+      <div class="stat__divider"></div>
+      <div class="stat">
+        <span class="stat__num">1924</span>
+        <span class="stat__label">Year Founded</span>
+      </div>
+      <div class="stat__divider"></div>
+      <div class="stat">
+        <span class="stat__num">5★</span>
+        <span class="stat__label">Rated Experience</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTRO STRIP -->
+  <section class="intro-strip">
+    <p class="intro-strip__text">
+      "The finest hotel I have stayed in, anywhere on earth."
+      <span>— The Telegraph, Travel Awards 2024</span>
+    </p>
+  </section>
+
+  <!-- ROOMS -->
+  <section class="rooms" id="rooms">
+    <div class="section-header">
+      <p class="section-eyebrow">Accommodations</p>
+      <h2 class="section-title">Rooms & Suites</h2>
+      <p class="section-sub">Each room is a considered composition of space, light, and material. Nothing superfluous. Nothing missing.</p>
+    </div>
+
+    <div class="rooms__grid">
+
+      <div class="room-card" data-reveal>
+        <div class="room-card__image room-card__image--1">
+          <span class="room-card__badge">Most Popular</span>
+        </div>
+        <div class="room-card__body">
+          <div class="room-card__meta">
+            <span>32 m²</span>
+            <span>City View</span>
+            <span>King Bed</span>
+          </div>
+          <h3 class="room-card__name">Heritage Room</h3>
+          <p class="room-card__desc">Original 1924 terrazzo floors, linen curtains that catch the morning breeze, and a writing desk that has witnessed a thousand letters.</p>
+          <div class="room-card__footer">
+            <span class="room-card__price">₹18,500 <small>/night</small></span>
+            <a href="#booking" class="btn btn--sm btn--gold">Book</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="room-card" data-reveal>
+        <div class="room-card__image room-card__image--2"></div>
+        <div class="room-card__body">
+          <div class="room-card__meta">
+            <span>54 m²</span>
+            <span>Sea View</span>
+            <span>King Bed</span>
+          </div>
+          <h3 class="room-card__name">Garden Suite</h3>
+          <p class="room-card__desc">A private terrace draped in jasmine, a clawfoot tub, and a sitting room that holds the golden hour long after sundown.</p>
+          <div class="room-card__footer">
+            <span class="room-card__price">₹32,000 <small>/night</small></span>
+            <a href="#booking" class="btn btn--sm btn--gold">Book</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="room-card" data-reveal>
+        <div class="room-card__image room-card__image--3">
+          <span class="room-card__badge room-card__badge--dark">Signature</span>
+        </div>
+        <div class="room-card__body">
+          <div class="room-card__meta">
+            <span>110 m²</span>
+            <span>Panoramic</span>
+            <span>Twin King</span>
+          </div>
+          <h3 class="room-card__name">The Aurum Penthouse</h3>
+          <p class="room-card__desc">Two floors. A rooftop plunge pool. The city at your feet and the sky as your ceiling. Our singular most extraordinary room.</p>
+          <div class="room-card__footer">
+            <span class="room-card__price">₹1,20,000 <small>/night</small></span>
+            <a href="#booking" class="btn btn--sm btn--gold">Book</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- AMENITIES -->
+  <section class="amenities" id="amenities">
+    <div class="amenities__inner">
+      <div class="section-header section-header--light">
+        <p class="section-eyebrow">What We Offer</p>
+        <h2 class="section-title">Amenities</h2>
+      </div>
+      <div class="amenities__grid">
+        <div class="amenity" data-reveal>
+          <div class="amenity__icon">✦</div>
+          <h4>Rooftop Pool</h4>
+          <p>Heated infinity pool with views over the Arabian Sea. Open 6 AM – 10 PM.</p>
+        </div>
+        <div class="amenity" data-reveal>
+          <div class="amenity__icon">✦</div>
+          <h4>Aurum Spa</h4>
+          <p>Twelve treatment rooms. Ancient Ayurvedic rituals alongside contemporary therapies.</p>
+        </div>
+        <div class="amenity" data-reveal>
+          <div class="amenity__icon">✦</div>
+          <h4>Private Library</h4>
+          <p>Over 3,000 curated volumes. A bar cart appears at six every evening.</p>
+        </div>
+        <div class="amenity" data-reveal>
+          <div class="amenity__icon">✦</div>
+          <h4>Concierge</h4>
+          <p>24-hour personal concierge. Nothing is too particular, too obscure, or too last-minute.</p>
+        </div>
+        <div class="amenity" data-reveal>
+          <div class="amenity__icon">✦</div>
+          <h4>Fitness Studio</h4>
+          <p>Technogym equipment, personal trainers, and sunrise yoga on the terrace.</p>
+        </div>
+        <div class="amenity" data-reveal>
+          <div class="amenity__icon">✦</div>
+          <h4>Car Service</h4>
+          <p>Chauffeured vintage Ambassador fleet and airport transfers, available round the clock.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DINING -->
+  <section class="dining" id="dining">
+    <div class="dining__image-col">
+      <div class="dining__image-stack">
+        <div class="dining__img dining__img--main"></div>
+        <div class="dining__img dining__img--accent"></div>
+      </div>
+    </div>
+    <div class="dining__content">
+      <p class="section-eyebrow">Food & Drink</p>
+      <h2 class="section-title">Dining</h2>
+      <p class="dining__lead">Two restaurants, one bar. Each a destination in itself.</p>
+      <div class="dining__venues">
+        <div class="dining__venue">
+          <h4>Saffron — The Rooftop Restaurant</h4>
+          <p>Contemporary Indian cuisine with a view that makes every meal ceremonial. Reservations essential.</p>
+        </div>
+        <div class="dining__venue">
+          <h4>The Colonial Brasserie</h4>
+          <p>All-day dining in the grand colonial hall. Eggs Benedict at 7 AM or champagne at midnight — equally welcome.</p>
+        </div>
+        <div class="dining__venue">
+          <h4>The 1924 Bar</h4>
+          <p>Mumbai's finest whisky selection, bespoke cocktails, and a jazz pianist every Friday and Saturday evening.</p>
+        </div>
+      </div>
+      <a href="#contact" class="btn btn--gold">Reserve a Table</a>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="section-header">
+      <p class="section-eyebrow">Visual Story</p>
+      <h2 class="section-title">Gallery</h2>
+    </div>
+    <div class="gallery__grid">
+      <div class="gallery__item gallery__item--tall" style="--bg:1"></div>
+      <div class="gallery__item" style="--bg:2"></div>
+      <div class="gallery__item" style="--bg:3"></div>
+      <div class="gallery__item gallery__item--wide" style="--bg:4"></div>
+      <div class="gallery__item" style="--bg:5"></div>
+      <div class="gallery__item" style="--bg:6"></div>
+    </div>
+  </section>
+
+  <!-- BOOKING -->
+  <section class="booking" id="booking">
+    <div class="booking__inner">
+      <div class="section-header section-header--light">
+        <p class="section-eyebrow">Reservations</p>
+        <h2 class="section-title">Book Your Stay</h2>
+      </div>
+      <form class="booking__form" id="bookingForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="checkin">Check-in</label>
+            <input type="date" id="checkin" name="checkin" required />
+          </div>
+          <div class="form-group">
+            <label for="checkout">Check-out</label>
+            <input type="date" id="checkout" name="checkout" required />
+          </div>
+          <div class="form-group">
+            <label for="guests">Guests</label>
+            <select id="guests" name="guests">
+              <option value="1">1 Guest</option>
+              <option value="2" selected>2 Guests</option>
+              <option value="3">3 Guests</option>
+              <option value="4">4 Guests</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="room-type">Room Type</label>
+            <select id="room-type" name="room-type">
+              <option value="">Any Room</option>
+              <option value="heritage">Heritage Room</option>
+              <option value="garden">Garden Suite</option>
+              <option value="penthouse">The Penthouse</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row form-row--personal">
+          <div class="form-group form-group--wide">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group form-group--wide">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group form-group--wide">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 00000 00000" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="requests">Special Requests</label>
+          <textarea id="requests" name="requests" rows="3" placeholder="Anniversary setup, dietary needs, early check-in…"></textarea>
+        </div>
+        <button type="submit" class="btn btn--gold btn--full">Confirm Reservation</button>
+        <p class="booking__note">No card required now. Our concierge will contact you within 2 hours to confirm.</p>
+      </form>
+      <div class="booking__success" id="bookingSuccess">
+        <div class="success-icon">✓</div>
+        <h3>Reservation Received</h3>
+        <p>Thank you. Our concierge team will reach you shortly to confirm your stay at Aurum House.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="testimonials__inner">
+      <p class="section-eyebrow" style="text-align:center">Guest Voices</p>
+      <div class="testimonials__track" id="testimonialsTrack">
+        <div class="testimonial__slide active">
+          <blockquote>"The Heritage Room was everything. The quiet, the light at dawn, the coffee left wordlessly outside our door. We didn't want to leave."</blockquote>
+          <cite>— Priya M., Delhi</cite>
+        </div>
+        <div class="testimonial__slide">
+          <blockquote>"Saffron is the best restaurant I've eaten at in India, full stop. The lamb raan at sunset with the city spread below — an unforgettable evening."</blockquote>
+          <cite>— James W., London</cite>
+        </div>
+        <div class="testimonial__slide">
+          <blockquote>"The Aurum Penthouse for our anniversary. The rooftop pool, the flowers, the personal butler. This is what luxury actually means."</blockquote>
+          <cite>— Ananya & Karan R., Mumbai</cite>
+        </div>
+      </div>
+      <div class="testimonials__dots" id="testimonialsDots">
+        <button class="dot active" data-index="0"></button>
+        <button class="dot" data-index="1"></button>
+        <button class="dot" data-index="2"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="contact__inner">
+      <div class="contact__info">
+        <p class="section-eyebrow">Find Us</p>
+        <h2 class="section-title">Contact</h2>
+        <p class="contact__address">
+          14, Marine Drive<br />
+          Nariman Point, Mumbai — 400 021<br />
+          Maharashtra, India
+        </p>
+        <div class="contact__details">
+          <a href="tel:+912222001924">+91 22 2200 1924</a>
+          <a href="mailto:stay@aurumhouse.com">stay@aurumhouse.com</a>
+        </div>
+        <p class="contact__hours">
+          Concierge Desk — Open 24 hours, every day of the year.
+        </p>
+      </div>
+      <div class="contact__map">
+        <div class="map-placeholder">
+          <div class="map-pin">
+            <span>A</span>
+          </div>
+          <p>Aurum House<br/><small>Marine Drive, Mumbai</small></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <span class="nav__logo-mark">A</span>
+        <span class="nav__logo-text">Aurum House</span>
+        <p>A sanctuary above the city since 1924.</p>
+      </div>
+      <div class="footer__links">
+        <h5>Explore</h5>
+        <a href="#rooms">Rooms & Suites</a>
+        <a href="#amenities">Amenities</a>
+        <a href="#dining">Dining</a>
+        <a href="#gallery">Gallery</a>
+      </div>
+      <div class="footer__links">
+        <h5>Stay</h5>
+        <a href="#booking">Make a Reservation</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#">Cancellation Policy</a>
+        <a href="#">Gift Cards</a>
+      </div>
+      <div class="footer__links">
+        <h5>Follow</h5>
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter / X</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2024 Aurum House. All rights reserved.</p>
+      <p><a href="#">Privacy Policy</a> · <a href="#">Terms</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
